@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sharpsites-demo.github.io/tyagi-imaging-diagnostic-demo/sitemap.xml
