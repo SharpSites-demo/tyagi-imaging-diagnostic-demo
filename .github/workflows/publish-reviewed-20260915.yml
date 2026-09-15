@@ -1,0 +1,12 @@
+name: Publish reviewed Tyagi Imaging redesign
+on:
+  push:
+    branches: [gh-pages]
+    paths: [.github/workflows/publish-reviewed-20260915.yml]
+permissions:
+  contents: write
+jobs:
+  publish:
+    uses: SharpSites-demo/sparta-gym-spa-ritik-demo/.github/workflows/publish-reviewed-html.yml@41cd0e039ca25ad2234ffc0978649d9e00875f09
+    with:
+      expected_sha256: 7a434a789efa0bc50d05ba056e41ec019b26d7d61a2becc1936bb4e72601594e
